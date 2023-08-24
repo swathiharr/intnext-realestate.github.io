@@ -41,6 +41,7 @@
     <span>© 2023 Exotic Homes Development. All Rights Reserved.</span>
   </footer>
 <script src="/assets/bootstrap.min.js"></script>
+  <script src="/assets/jquery-3.6.0.min.js"></script>
 <script src="/js/main.js"></script>
 </body>
 
