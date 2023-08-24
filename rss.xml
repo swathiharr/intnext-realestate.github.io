@@ -10,7 +10,7 @@
     <link>https://exotic-homes.github.io</link>
   </image>
   <generator> RSS for Exotic Homes </generator>
-  <lastBuildDate>Mon, 03 July 2023 23:28:45 PST</lastBuildDate>
+  <lastBuildDate>Thu, 24 August 2023 22:26:0 PST</lastBuildDate>
   <link href="https://exotic-homes.github.io/rss.xml" rel="self" type="application/rss+xml"/>
   <language><![CDATA[ en ]]></language>
 <item>
@@ -21,23 +21,9 @@
   <content medium="image" url=""/>
 </item>
 <item>
-  <title><![CDATA[New Chat]]></title>
+  <title><![CDATA[Contact Us | Exotic Homes]]></title>
   <description><![CDATA[]]></description>
-  <link>https://exotic-homes.github.io/support</link>
-  <creator><![CDATA[ Exotic Homes ]]></creator>
-  <content medium="image" url=""/>
-</item>
-<item>
-  <title><![CDATA[Apartment | Exotic Homes]]></title>
-  <description><![CDATA[]]></description>
-  <link>https://exotic-homes.github.io/apartment</link>
-  <creator><![CDATA[ Exotic Homes ]]></creator>
-  <content medium="image" url=""/>
-</item>
-<item>
-  <title><![CDATA[Residential | Exotic Homes]]></title>
-  <description><![CDATA[]]></description>
-  <link>https://exotic-homes.github.io/residential</link>
+  <link>https://exotic-homes.github.io/contact</link>
   <creator><![CDATA[ Exotic Homes ]]></creator>
   <content medium="image" url=""/>
 </item>
@@ -49,13 +35,6 @@
   <content medium="image" url=""/>
 </item>
 <item>
-  <title><![CDATA[Privacy | Exotic Homes]]></title>
-  <description><![CDATA[]]></description>
-  <link>https://exotic-homes.github.io/privacy</link>
-  <creator><![CDATA[ Exotic Homes ]]></creator>
-  <content medium="image" url=""/>
-</item>
-<item>
   <title><![CDATA[Login or sign up | Exotic Homes]]></title>
   <description><![CDATA[]]></description>
   <link>https://exotic-homes.github.io/login</link>
@@ -63,72 +42,16 @@
   <content medium="image" url=""/>
 </item>
 <item>
-  <title><![CDATA[Villa | Exotic Homes]]></title>
+  <title><![CDATA[Privacy Policy | Exotic Homes]]></title>
   <description><![CDATA[]]></description>
-  <link>https://exotic-homes.github.io/villa</link>
+  <link>https://exotic-homes.github.io/privacy</link>
   <creator><![CDATA[ Exotic Homes ]]></creator>
   <content medium="image" url=""/>
 </item>
 <item>
-  <title><![CDATA[Logout | Exotic Homes]]></title>
+  <title><![CDATA[Support | Exotic Homes]]></title>
   <description><![CDATA[]]></description>
-  <link>https://exotic-homes.github.io/logout</link>
-  <creator><![CDATA[ Exotic Homes ]]></creator>
-  <content medium="image" url=""/>
-</item>
-<item>
-  <title><![CDATA[House | Exotic Homes]]></title>
-  <description><![CDATA[]]></description>
-  <link>https://exotic-homes.github.io/house</link>
-  <creator><![CDATA[ Exotic Homes ]]></creator>
-  <content medium="image" url=""/>
-</item>
-<item>
-  <title><![CDATA[Contact | Exotic Homes]]></title>
-  <description><![CDATA[]]></description>
-  <link>https://exotic-homes.github.io/contact</link>
-  <creator><![CDATA[ Exotic Homes ]]></creator>
-  <content medium="image" url=""/>
-</item>
-<item>
-  <title><![CDATA[Create Account | Exotic Homes]]></title>
-  <description><![CDATA[]]></description>
-  <link>https://exotic-homes.github.io/create</link>
-  <creator><![CDATA[ Exotic Homes ]]></creator>
-  <content medium="image" url=""/>
-</item>
-<item>
-  <title><![CDATA[Forgot Password | Exotic Homes]]></title>
-  <description><![CDATA[]]></description>
-  <link>https://exotic-homes.github.io/forgot-password</link>
-  <creator><![CDATA[ Exotic Homes ]]></creator>
-  <content medium="image" url=""/>
-</item>
-<item>
-  <title><![CDATA[More | Exotic Homes]]></title>
-  <description><![CDATA[]]></description>
-  <link>https://exotic-homes.github.io/more</link>
-  <creator><![CDATA[ Exotic Homes ]]></creator>
-  <content medium="image" url=""/>
-</item>
-<item>
-  <title><![CDATA[logout]]></title>
-  <description><![CDATA[]]></description>
-  <link>https://exotic-homes.github.io/dashboard</link>
-  <creator><![CDATA[ Exotic Homes ]]></creator>
-  <content medium="image" url=""/>
-</item>
-<item>
-  <title><![CDATA[Change Password | Exotic Homes]]></title>
-  <description><![CDATA[]]></description>
-  <link>https://exotic-homes.github.io/change-password</link>
-  <creator><![CDATA[ Exotic Homes ]]></creator>
-  <content medium="image" url=""/>
-</item>
-<item>
-  <title><![CDATA[Cottage | Exotic Homes]]></title>
-  <description><![CDATA[]]></description>
-  <link>https://exotic-homes.github.io/cottage</link>
+  <link>https://exotic-homes.github.io/support</link>
   <creator><![CDATA[ Exotic Homes ]]></creator>
   <content medium="image" url=""/>
 </item>

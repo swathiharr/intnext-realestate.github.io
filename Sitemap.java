@@ -30,7 +30,7 @@ class Sitemap {
         //String domain = args[0];
         //String url = args[1];
        
-        url = "/opt/lampp/htdocs/Horizon-Homes";
+        url = "/home/mrepol742/Documents/website";
         domain = "https://exotic-homes.github.io";
 
         find(new File(url), domain);
@@ -81,7 +81,7 @@ class Sitemap {
             return;
         }
         if (file.isDirectory() && !isHome) {
-            File root = new File(url+"/index.php");
+            File root = new File(url+"/index.html");
             System.out.println(format.format(root.lastModified()) + " | " + domain);
             links.add(new Link(domain, format.format(root.lastModified()), getImages(root) + "\n" + getVideos(root)));
             isHome = true;
@@ -90,7 +90,7 @@ class Sitemap {
         for (String str: listFiles) {
             File folder = new File(file.getAbsolutePath() + "/" + str);
             if (folder.isDirectory()) {
-                File hasIndex = new File(folder.getAbsolutePath() + "/index.php");
+                File hasIndex = new File(folder.getAbsolutePath() + "/index.html");
                 if (hasIndex.isFile()) {
                      System.out.println(format.format(hasIndex.lastModified()) + " | " + domain + hasIndex.getParentFile().getAbsolutePath().replace(url, ""));
                     links.add(new Link(domain + hasIndex.getParentFile().getAbsolutePath().replace(url, "") , format.format(hasIndex.lastModified()), getImages(hasIndex) + "\n" + getVideos(hasIndex)));

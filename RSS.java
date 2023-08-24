@@ -37,7 +37,7 @@ class RSS {
         //String domain = args[0];
         //String url = args[1];
        
-        url = "/opt/lampp/htdocs/Horizon-Homes";
+        url = "/home/mrepol742/Documents/website";
         domain = "https://exotic-homes.github.io";
 
         rss.append(header);
@@ -61,7 +61,7 @@ class RSS {
         if (title.toString() != "") {
             return title.get(0).toString().replace("<title>", "").replace("</title>", "");
         }
-        String propablePageName = toProperCase(file.toString().replace("/opt/lampp/htdocs/Horizon-Homes/", "").replace("/index.php", ""));
+        String propablePageName = toProperCase(file.toString().replace("/opt/lampp/htdocs/Horizon-Homes/", "").replace("/index.html", ""));
         return propablePageName + " | Exotic Homes";
     }
 
@@ -95,10 +95,10 @@ class RSS {
             return;
         }
         if (file.isDirectory() && !isHome) {
-            String[] metas = getMeta(new File(url+"/index.php"));
+            String[] metas = getMeta(new File(url+"/index.html"));
             rss.append("  <title>");
             rss.append("<![CDATA[");
-            rss.append(getTitle(new File(url+"/index.php")));
+            rss.append(getTitle(new File(url+"/index.html")));
             rss.append("]]>");
             rss.append("</title>\n");
             rss.append("  <description>");
@@ -114,7 +114,7 @@ class RSS {
             rss.append(metas[1]);
             rss.append("</url>\n");
             rss.append("    <title>");
-            rss.append(getTitle(new File(url+"/index.php")));
+            rss.append(getTitle(new File(url+"/index.html")));
             rss.append("</title>\n");
             rss.append("    <link>");
             rss.append(domain);
@@ -132,11 +132,11 @@ class RSS {
         for (String str: listFiles) {
             File folder = new File(file.getAbsolutePath() + "/" + str);
             if (folder.isDirectory()) {
-                File hasIndex = new File(folder.getAbsolutePath() + "/index.php");
+                File hasIndex = new File(folder.getAbsolutePath() + "/index.html");
                 if (hasIndex.isFile()) {
                     System.out.println(format.format(hasIndex.lastModified()) + " | " + domain + hasIndex.getParentFile().getAbsolutePath().replace(url, ""));
-                    String[] metas = getMeta(new File(hasIndex.getParentFile().getAbsolutePath() + "/index.php"));
-                     items.add(new Item("<![CDATA[" + getTitle(new File(hasIndex.getParentFile().getAbsolutePath() + "/index.php")) + "]]>", "<![CDATA[" + metas[0] + "]]>", domain + hasIndex.getParentFile().getAbsolutePath().replace(url, ""), metas[1]));
+                    String[] metas = getMeta(new File(hasIndex.getParentFile().getAbsolutePath() + "/index.html"));
+                     items.add(new Item("<![CDATA[" + getTitle(new File(hasIndex.getParentFile().getAbsolutePath() + "/index.html")) + "]]>", "<![CDATA[" + metas[0] + "]]>", domain + hasIndex.getParentFile().getAbsolutePath().replace(url, ""), metas[1]));
                      find(new File (file.getAbsolutePath() + "/" + str), domain);
                 }
             }
