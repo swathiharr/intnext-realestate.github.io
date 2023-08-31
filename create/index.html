@@ -16,14 +16,14 @@
   <link rel="manifest" href="/site.webmanifest">
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Login | Exotic Homes Ecommerce">
+  <meta property="og:title" content="Create Account | Exotic Homes Ecommerce">
   <meta property="og:url" content="https://exotic-homes.github.io">
-  <meta property="og:site_name" content="Login | Exotic Homes Ecommerce">
+  <meta property="og:site_name" content="Create Account | Exotic Homes Ecommerce">
   <meta property="og:description" content>
   <meta property="og:image" content="https://exotic-homes.github.io/images/modern-residential-district-with-green-roof-balcony-generated-by-ai.jpg">
 
   <meta property="twitter:image:src" content="https://exotic-homes.github.io/images/modern-residential-district-with-green-roof-balcony-generated-by-ai.jpg" />
-  <meta property="twitter:title" content="Login | Exotic Homes Ecommerce" />
+  <meta property="twitter:title" content="Create Account | Exotic Homes Ecommerce" />
   <meta property="twitter:description" content />
 
   <meta name="keywords" content="Exotic Homes, ecommerse, property developer, property buyer, properter seller, house, cottage, villa, apartment, residential">
@@ -35,7 +35,7 @@
   <link rel="canonical" href="https://exotic-homes.github.io">
   <link rel="alternate" type="application/rss+xml" title="Exotic Homes » Feed" href="https://exotic-homes.github.io/rss.xml">
   <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Search » Exotic Homes">
-  <title>Login | Exotic Homes Ecommerce</title>
+  <title>Create Account | Exotic Homes Ecommerce</title>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
@@ -116,16 +116,23 @@
         </div>
         <div class="col-md-8">
           <div class="card-body">
-               <div class="user-box">
-                  <input id="email" type="text" name="email" placeholder="Email">
-                </div>
-                <div class="user-box">
-                  <input id="password" type="password" name="password" placeholder="Password">
-                </div>
-                <div class="user-actions">
-                  <button id="login" class="btn user" name="submit" type="submit">Login</button>
-                  <a href="/forgot-password">Forgot password</a>
-                </div>
+            <div class="user-box">
+                <input type="text" name="email" placeholder="Email (you@gmail.com)">
+              </div>
+              <div class="user-box">
+                <input type="text" name="lname" placeholder="Last name">
+                <input type="text" name="fname" placeholder="First name">
+                <input type="text" name="mname" placeholder="Middle name">
+              </div>
+              <div class="user-box">
+                <input type="password" name="password" placeholder="Password">
+              </div>
+              <div class="user-box">
+                <input type="password" name="cpassword" placeholder="Re-type Password">
+              </div>
+              <div class="user-actions">
+                <button id="create" class="btn user" name="submit_user" type="submit">Create Account</button>
+              </div>
           </div>
         </div>
         <div class="col-md-4" id="desktop">
