@@ -12,12 +12,26 @@
 			<title>XML Sitemap</title>
 			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 			<style type="text/css">
-			@font-face {
+@font-face {
     font-family: 'Maven Pro';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
     src: url("/assets/MavenPro.woff2") format('woff2');
+}
+
+
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/assets/SourceCodePro-Regular.ttf");
+}
+
+h1, h2, h3, h4, h5, h6, th {
+    letter-spacing: -1px;
+    font-family: 'Source Code Pro', sans-serif;
 }
 
 ::selection {

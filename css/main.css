@@ -130,9 +130,21 @@ nav {
 }
 
 .btn-primary {
-    background-color: #ff5757a8;
+    background-color: #ff5757;
     border-color: #FF5757;
     color: #fff;
+}
+
+.fpass, .accnt {
+    color: #FF5757;
+}
+
+.passwords, .names, .sif {
+    margin-top: 15px;
+}
+
+.birthdate {
+    width: 20%;
 }
 
 .btn-outline-primary {
@@ -142,9 +154,9 @@ nav {
 }
 
 .btn-primary:hover {
-    background-color: #FF575725;
+    background-color: #ff5757a8;
     border-color: #FF5757;
-    color: #FF5757;
+    color: #fff;
 }
 
 .btn-outline-primary:hover {
@@ -379,11 +391,6 @@ select {
     transition: all 1s ease;
 }
 
-.user-box-add input:focus,
-select:focus {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.7);
-}
-
 .modal-header,
 .modal-footer,
 .modal-content {
@@ -520,7 +527,58 @@ input:-webkit-autofill:active {
     border-radius: 0px !important;
 }
 
+#sname {
+    width: 7.5% !important;
+}
+
+#mname, #fname, #lname {
+    width: 14.5% !important;
+}
+
 input {
     padding: 5px;
-    
+    border-radius: 10px;
+    border-color: #2e475d98;
+    border-style: solid;
+    width: 100%;
+    outline: none;
+}
+
+input:focus {
+    border-color: #2e475d;
+    border-width: 3px;
+}
+
+.password {
+}
+
+.login-actions {
+    display: block;
+    margin-top: 18px;
+    padding: 10px;
+}
+
+.login-actions #login {
+    margin-right: 13px;
+}
+
+.fpass {
+    display: inline  !important;
+
+}
+
+@media (min-width:770px) {
+
+    input {
+        width: 40%;
+    }
+}
+
+label {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+.sub-title {
+    font-size: 2em;
 }
