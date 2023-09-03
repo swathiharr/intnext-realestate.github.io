@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
   <loc>https://exotic-homes.github.io</loc>
-  <lastmod>2023-08-24T22:19:08+08:00</lastmod>
+  <lastmod>2023-09-03T20:24:33+08:00</lastmod>
   <image:image>
     <image:loc>https://exotic-homes.github.io/images/modern-residential-district-with-green-roof-balcony-generated-by-ai.jpg</image:loc>
   </image:image>  <image:image>
@@ -13,7 +13,7 @@
 </url>
 <url>
   <loc>https://exotic-homes.github.io/about</loc>
-  <lastmod>2023-08-24T22:21:49+08:00</lastmod>
+  <lastmod>2023-09-03T20:24:33+08:00</lastmod>
   <image:image>
     <image:loc>https://exotic-homes.github.io/images/Exotic Homes.transparent.png</image:loc>
   </image:image>  <image:image>
@@ -22,7 +22,7 @@
 </url>
 <url>
   <loc>https://exotic-homes.github.io/contact</loc>
-  <lastmod>2023-08-24T22:22:16+08:00</lastmod>
+  <lastmod>2023-09-03T20:24:33+08:00</lastmod>
   <image:image>
     <image:loc>https://exotic-homes.github.io/images/Exotic Homes.transparent.png</image:loc>
   </image:image>  <image:image>
@@ -31,7 +31,7 @@
 </url>
 <url>
   <loc>https://exotic-homes.github.io/faq</loc>
-  <lastmod>2023-08-24T22:22:33+08:00</lastmod>
+  <lastmod>2023-09-03T20:24:33+08:00</lastmod>
   <image:image>
     <image:loc>https://exotic-homes.github.io/images/Exotic Homes.transparent.png</image:loc>
   </image:image>  <image:image>
@@ -40,12 +40,18 @@
 </url>
 <url>
   <loc>https://exotic-homes.github.io/login</loc>
-  <lastmod>2023-08-24T19:17:00+08:00</lastmod>
-
+  <lastmod>2023-09-03T20:35:34+08:00</lastmod>
+  <image:image>
+    <image:loc>https://exotic-homes.github.io/images/modern-residential-district-with-green-roof-balcony-generated-by-ai.jpg</image:loc>
+  </image:image>  <image:image>
+    <image:loc>https://exotic-homes.github.io/images/modern-residential-district-with-green-roof-balcony-generated-by-ai.jpg</image:loc>
+  </image:image>  <image:image>
+    <image:loc>https://exotic-homes.github.io/images/Exotic Homes.transparent.png</image:loc>
+  </image:image>
 </url>
 <url>
   <loc>https://exotic-homes.github.io/privacy</loc>
-  <lastmod>2023-08-24T22:20:16+08:00</lastmod>
+  <lastmod>2023-09-03T20:24:33+08:00</lastmod>
   <image:image>
     <image:loc>https://exotic-homes.github.io/images/Exotic Homes.transparent.png</image:loc>
   </image:image>  <image:image>
@@ -54,8 +60,30 @@
 </url>
 <url>
   <loc>https://exotic-homes.github.io/support</loc>
-  <lastmod>2023-08-24T19:17:00+08:00</lastmod>
+  <lastmod>2023-09-03T20:24:33+08:00</lastmod>
   <image:image>
+    <image:loc>https://exotic-homes.github.io/images/Exotic Homes.transparent.png</image:loc>
+  </image:image>
+</url>
+<url>
+  <loc>https://exotic-homes.github.io/signup</loc>
+  <lastmod>2023-09-03T20:24:33+08:00</lastmod>
+  <image:image>
+    <image:loc>https://exotic-homes.github.io/images/modern-residential-district-with-green-roof-balcony-generated-by-ai.jpg</image:loc>
+  </image:image>  <image:image>
+    <image:loc>https://exotic-homes.github.io/images/modern-residential-district-with-green-roof-balcony-generated-by-ai.jpg</image:loc>
+  </image:image>  <image:image>
+    <image:loc>https://exotic-homes.github.io/images/Exotic Homes.transparent.png</image:loc>
+  </image:image>
+</url>
+<url>
+  <loc>https://exotic-homes.github.io/reg</loc>
+  <lastmod>2023-09-03T20:24:33+08:00</lastmod>
+  <image:image>
+    <image:loc>https://exotic-homes.github.io/images/modern-residential-district-with-green-roof-balcony-generated-by-ai.jpg</image:loc>
+  </image:image>  <image:image>
+    <image:loc>https://exotic-homes.github.io/images/modern-residential-district-with-green-roof-balcony-generated-by-ai.jpg</image:loc>
+  </image:image>  <image:image>
     <image:loc>https://exotic-homes.github.io/images/Exotic Homes.transparent.png</image:loc>
   </image:image>
 </url>

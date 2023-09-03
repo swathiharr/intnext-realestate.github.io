@@ -10,7 +10,7 @@
     <link>https://exotic-homes.github.io</link>
   </image>
   <generator> RSS for Exotic Homes </generator>
-  <lastBuildDate>Thu, 24 August 2023 22:26:0 PST</lastBuildDate>
+  <lastBuildDate>Sun, 03 September 2023 23:0:24 PST</lastBuildDate>
   <link href="https://exotic-homes.github.io/rss.xml" rel="self" type="application/rss+xml"/>
   <language><![CDATA[ en ]]></language>
 <item>
@@ -35,11 +35,11 @@
   <content medium="image" url=""/>
 </item>
 <item>
-  <title><![CDATA[Login or sign up | Exotic Homes]]></title>
+  <title><![CDATA[Log in or Sign up | Exotic Homes Ecommerce]]></title>
   <description><![CDATA[]]></description>
   <link>https://exotic-homes.github.io/login</link>
   <creator><![CDATA[ Exotic Homes ]]></creator>
-  <content medium="image" url=""/>
+  <content medium="image" url="https://exotic-homes.github.iohttps://exotic-homes.github.io/images/modern-residential-district-with-green-roof-balcony-generated-by-ai.jpg"/>
 </item>
 <item>
   <title><![CDATA[Privacy Policy | Exotic Homes]]></title>
@@ -54,6 +54,20 @@
   <link>https://exotic-homes.github.io/support</link>
   <creator><![CDATA[ Exotic Homes ]]></creator>
   <content medium="image" url=""/>
+</item>
+<item>
+  <title><![CDATA[Sign up]]></title>
+  <description><![CDATA[]]></description>
+  <link>https://exotic-homes.github.io/signup</link>
+  <creator><![CDATA[ Exotic Homes ]]></creator>
+  <content medium="image" url="https://exotic-homes.github.iohttps://exotic-homes.github.io/images/modern-residential-district-with-green-roof-balcony-generated-by-ai.jpg"/>
+</item>
+<item>
+  <title><![CDATA[Join Exotic Homes]]></title>
+  <description><![CDATA[]]></description>
+  <link>https://exotic-homes.github.io/reg</link>
+  <creator><![CDATA[ Exotic Homes ]]></creator>
+  <content medium="image" url="https://exotic-homes.github.iohttps://exotic-homes.github.io/images/modern-residential-district-with-green-roof-balcony-generated-by-ai.jpg"/>
 </item>
 </channel>
 </rss>
