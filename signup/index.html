@@ -16,16 +16,16 @@
   <link rel="manifest" href="/site.webmanifest">
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Log in or Sign up | Exotic Homes Ecommerce">
+  <meta property="og:title" content="Sign up">
   <meta property="og:url" content="https://exotic-homes.github.io">
-  <meta property="og:site_name" content="Log in or Sign up | Exotic Homes Ecommerce">
+  <meta property="og:site_name" content="Sign up">
   <meta property="og:description" content>
   <meta property="og:image"
     content="https://exotic-homes.github.io/images/modern-residential-district-with-green-roof-balcony-generated-by-ai.jpg">
 
   <meta property="twitter:image:src"
     content="https://exotic-homes.github.io/images/modern-residential-district-with-green-roof-balcony-generated-by-ai.jpg" />
-  <meta property="twitter:title" content="Log in or Sign up | Exotic Homes Ecommerce" />
+  <meta property="twitter:title" content="Sign up" />
   <meta property="twitter:description" content />
 
   <meta name="keywords"
@@ -39,7 +39,7 @@
   <link rel="alternate" type="application/rss+xml" title="Exotic Homes » Feed"
     href="https://exotic-homes.github.io/rss.xml">
   <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Search » Exotic Homes">
-  <title>Log in or Sign up | Exotic Homes Ecommerce</title>
+  <title>Sign up</title>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
@@ -129,16 +129,28 @@
         </div>
         <div class="col-md-7">
           <div class="card-body">
-            <h1>Login to continue</h1>
-              <label for="email">Email</label><br>
-              <input class="email" id="email" type="email" name="email"><br>
-              <label for="password">Password</label><br>
-              <input class="password" id="password" type="password" name="password">
+            <h1>Create Account</h1>
+            <div class="names">
+              <input class="name" id="lname" type="text" name="lname" placeholder="Last name">
+              <input class="name" id="fname" type="text" name="fname" placeholder="First name">
+              <input class="name" id="mname" type="text" name="mname" placeholder="Middle name">
+              <input class="name" id="sname" type="text" name="sname" placeholder="Suffix">
+              </div>
 
-              <div class="login-actions">
-                <button id="login" class="btn btn-primary">Login</button>
-                <a class="fpass" href="/forgot-password">Forgot password?</a>
-                </div>
+            <div class="sif">
+            <input class="birthdate" id="birthdate" type="date">
+            <input class="email" id="email" type="email" name="email" placeholder="Email">
+            </div>
+
+            <div class="passwords">
+            <input class="password" id="password" type="password" name="password" placeholder="Password">
+            <input class="password" id="repassword" type="password" name="repassword" placeholder="Confirm Password">
+            </div>
+
+            <div class="login-actions">
+              <button id="create" class="btn btn-primary">Create</button>
+              <a class="accnt" href="/login">Already have an account?</a>
+              </div>
           </div>
         </div>
         <div class="col-md-5" id="desktop">
