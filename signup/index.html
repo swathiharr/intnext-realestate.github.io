@@ -110,6 +110,20 @@
       </div>
     </div>
   </nav>
+  <div class="toast" id="underconstruction"
+    style="position: fixed; bottom: 0; right: 0; z-index: 9999; float: right; margin: 3%;" data-bs-autohide="false">
+    <div class="toast-body">
+      <p>This website and it's functions are currently under construction. Changes or problem may occur.</p>
+      <div class="mt-2 pt-2">
+        <button type="button" class="btn btn-outline-primary m-2" id="note">Noted</button>
+      </div>
+    </div>
+  </div>
+  <noscript>
+    <div class="nojs">
+      An error occurred. Try reloading this page, or enable JavaScript if it is disabled in your browser.
+    </div>
+  </noscript>
   <header>
     <div class="toast" id="error-toast"
       style="position: fixed; bottom: 0; right: 0; z-index: 9999; float: right; margin: 3%;" data-bs-autohide="true">
@@ -135,22 +149,22 @@
               <input class="name" id="fname" type="text" name="fname" placeholder="First name">
               <input class="name" id="mname" type="text" name="mname" placeholder="Middle name">
               <input class="name" id="sname" type="text" name="sname" placeholder="Suffix">
-              </div>
+            </div>
 
             <div class="sif">
-            <input class="birthdate" id="birthdate" type="date">
-            <input class="email" id="email" type="email" name="email" placeholder="Email">
+              <input class="birthdate" id="birthdate" type="date">
+              <input class="email" id="email" type="email" name="email" placeholder="Email">
             </div>
 
             <div class="passwords">
-            <input class="password" id="password" type="password" name="password" placeholder="Password">
-            <input class="password" id="repassword" type="password" name="repassword" placeholder="Confirm Password">
+              <input class="password" id="password" type="password" name="password" placeholder="Password">
+              <input class="password" id="repassword" type="password" name="repassword" placeholder="Confirm Password">
             </div>
 
             <div class="login-actions">
               <button id="create" class="btn btn-primary">Create</button>
               <a class="accnt" href="/login">Already have an account?</a>
-              </div>
+            </div>
           </div>
         </div>
         <div class="col-md-5" id="desktop">
