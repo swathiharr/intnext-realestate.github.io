@@ -75,12 +75,6 @@ a,
     transition: all 1s ease;
 }
 
-.active:hover {
-    color: #fff !important;
-    font-weight: 600;
-    transition: all 1s ease;
-}
-
 .hna:hover {
     background: rgba(0, 0, 0, 0.9);
 }
@@ -570,10 +564,18 @@ input:focus {
 
 }
 
+.sub-title {
+    font-size: 1.3em !important;
+}
+
 @media (min-width:770px) {
 
     input {
         width: 40%;
+    }
+
+    .sub-title {
+        font-size: 1.8em !important;
     }
 }
 
@@ -582,9 +584,6 @@ label {
     font-size: 1.1em;
 }
 
-.sub-title {
-    font-size: 2em;
-}
 .card-text{
     font-size:13px;
 }
