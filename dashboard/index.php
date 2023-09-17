@@ -255,7 +255,7 @@ function getCategory($category)
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
   <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="../assets/bootstrap.min.css">
