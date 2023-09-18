@@ -1,4 +1,4 @@
-<img src="https://github.com/Exotic-Homes/exotic-homes.github.io/blob/master/images/Exotic%20Homes.transparent.png">
+<img src="https://raw.githubusercontent.com/Exotic-Homes/exotic-homes.github.io/master/images/Exotic%20Homes.transparent.png" alt="Exotic Homes">
 
 **Rent, Buy and Sell Homes**
 
