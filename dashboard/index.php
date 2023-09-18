@@ -269,6 +269,8 @@ function getCategory($category)
 </head>
 
 <body class="d-flex flex-column min-vh-100">
+ <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MCRN57K2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <nav class="autohide navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container-fluid">
       <div class="navbar-brand">

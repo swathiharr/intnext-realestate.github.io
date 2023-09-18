@@ -87,6 +87,8 @@ h1, h2, h3, h4, h5, h6, th {
 			</style>
 		</head>
 		<body class="d-flex flex-column min-vh-100">
+ <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MCRN57K2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div id="content">
 			<h1>XML Sitemap</h1>
 			<p class="expl">
