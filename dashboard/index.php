@@ -260,6 +260,8 @@ function getCategory($category)
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
   <meta name="theme-color" content="#ffffff">
+<link rel="preload" href="../assets/MavenPro.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/SourceCodePro-Regular.tff" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="../assets/bootstrap.min.css">
   <link rel="stylesheet" href="../css/main.css">
 
