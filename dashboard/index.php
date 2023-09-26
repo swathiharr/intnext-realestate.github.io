@@ -255,8 +255,8 @@ function getCategory($category)
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
- <meta property="article:publisher" content="https://www.facebook.com/people/Exotic-Homes/61550920919855/">
-  <meta property="article:modified_time" content="2023-09-18T11:12:36+00:00">
+ <meta property="article:publisher" content="https://facebook.com/intnext">
+  <meta property="article:modified_time" content="2023-09-27T01:12:36+00:00">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
   <meta name="theme-color" content="#ffffff">
