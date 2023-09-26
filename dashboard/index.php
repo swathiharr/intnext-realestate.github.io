@@ -269,7 +269,7 @@ function getCategory($category)
   <link rel="shortcut icon" href="../favicon.png">
   <link rel="apple-touch-icon" href="../favicon.png">
   <link rel="manifest" href="../site.webmanifest">
-  <title>Dashboard | Exotic Homes</title>
+  <title>Dashboard | IntNext Real Estate</title>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
