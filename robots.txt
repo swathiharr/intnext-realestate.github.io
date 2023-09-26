@@ -1,4 +1,4 @@
 User-agent: *
 Crawl-delay: 60
 
-Sitemap: https://exotic-homes.github.io/sitemap.xml
+Sitemap: https://intnext-realestate.github.io/sitemap.xml

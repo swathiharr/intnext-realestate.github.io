@@ -1,9 +1,9 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-  <ShortName>Exotic Homes</ShortName>
-  <Description>Get your luxurious,stylish,beautiful homes at Horizon, Elevate Your Living Experience: Exotic Homes, Redefining Modern Living</Description>
+  <ShortName>IntNext</ShortName>
+  <Description>Get your luxurious,stylish,beautiful homes at IntNext, Elevate Your Living Experience: IntNext Real Estate, Redefining Modern Living</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/png">https://exotic-homes.github.io/favicon.png</Image>
-  <Url type="text/html" method="get" template="https://exotic-homes.github.io/search?query={searchTerms}&amp;ref=opensearch"/>
-  <moz:SearchForm>https://exotic-homes.github.io/search</moz:SearchForm>
+  <Image width="16" height="16" type="image/png">https://intnext-realestate.github.io/favicon.png</Image>
+  <Url type="text/html" method="get" template="https://intnext-realestate.github.io/search?query={searchTerms}&amp;ref=opensearch"/>
+  <moz:SearchForm>https://intnext-realestate.github.io/search</moz:SearchForm>
 </OpenSearchDescription>

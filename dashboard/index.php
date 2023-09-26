@@ -511,7 +511,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </svg>
     </a>
     <br>
-    <span>© 2023 The Exotic Homes Project</span>
+    <span>© 2023 IntNext Real Estate</span>
   </footer>
   <script src="../assets/bootstrap.min.js"></script>
   <script>
