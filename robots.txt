@@ -2,3 +2,4 @@ User-agent: *
 Crawl-delay: 60
 
 Sitemap: https://intnext-realestate.github.io/sitemap.xml
+Sitemap: https://intnext-realestate.github.io/RSS.xml
